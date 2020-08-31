@@ -6,9 +6,54 @@
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	<body>
-		<div class="divheader">
-			<h1>Welcome to My Homepage</h1>
-			<p>See my information below!</p>
-        </div>
+		<div class="title">
+			<div class="header">
+			Faris' Personal Webpage
+			</div>
+			<div class="text">
+			De omnibus dubitandum est
+			</div>
+		</div>
+		<div class="divbar">
+			<img src="media/picture.jpg" alt="Faris' picture"></img>
+			<div class="divbar-content">
+			Content
+			</div>
+		</div>
+		<div class="divbody">
+			<button class="tab" onclick="openPage('about', this, 'seagreen')">About</button>
+            <button class="tab" onclick="openPage('contacts', this, 'seagreen')">Contacts</button>
+            <div id="about" class="tabcontent">
+            	<div class="header">
+            		Personal Info
+            	</div>
+            	<div class="text">
+            		<p><b>Name</b>: Faris Muhammad Kautsar<br>
+            		<b>Birthdate</b>: 8 February 2001<br>
+            		<b>Student ID</b>: 13518105<br>
+            		<b>Education</b>:
+            	 	<ul>
+  						<li>SDI Darussalam</li>
+  						<li>SMP Al-Azhar 8</li>
+  						<li>SMA Labschool Jakarta</li>
+  						<li>Jurusan Informatika Institut Teknologi Bandung (current)</li>
+					</ul> </p>
+            	</div>
+            </div>
+            <div id="contacts" class="tabcontent">
+            	<div class="header">
+            		Contact Info
+            	</div>
+            	<div class="text">
+            	 	<ul>
+  						<li><a href="https://www.instagram.com/farismkautsar/" target="#">Instagram</a></li>
+  						<li><a href="https://www.facebook.com/faris.kautsar.9" target="#">Facebook</a></li>
+  						<li><a href="https://github.com/ramunechoco" target="#">GitHub</a></li>
+  						<li>E-mail: 13518105@std.stei.itb.ac.id</li>
+					</ul> </p>
+            	</div>
+            </div>
+		</div>
+		<script src="script.js"></script>
 	</body>
 </html>

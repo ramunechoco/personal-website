@@ -3,16 +3,63 @@
   font-family: courier;
 }
 
-divheader {
-  line-height: 0px;
+.title {
+	text-align: center;
 }
 
-h1 {
+.header {
 	margin-bottom: 0px;
+	background-color: black;
 	color: yellowgreen;
+	font-size: 35;
 }
 
-p {
-	margin-top: 0px;	
+.text {
+	margin-top: 0px;
+	background-color: black;	
 	color: lime;
+	font-size: 16;
+}
+
+.divbar {
+	float: right;
+	border: none;
+	padding: 24px 40px;
+	background-color: black;
+}
+
+.divbar-header {
+	font-weight: bold;
+	font-size: 20;
+	margin-bottom: 10px;
+}
+
+.divbody {
+	background-color: black;
+}
+
+.tab {
+  background-color: #1e3252;
+  font-family: courier;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 10%;
+}
+
+.tabcontent {
+  color: black;
+  display: none;
+  padding: 70px 20px;
+  height: 100%;
+}
+
+img {
+    width: 11vmax;
+    height:11vmax;
+    object-fit: cover;
 }
