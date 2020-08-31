@@ -1,3 +1,18 @@
-body {
-    background-color: blue;
+ body {
+  background-color: black;
+  font-family: courier;
+}
+
+divheader {
+  line-height: 0px;
+}
+
+h1 {
+	margin-bottom: 0px;
+	color: yellowgreen;
+}
+
+p {
+	margin-top: 0px;	
+	color: lime;
 }
